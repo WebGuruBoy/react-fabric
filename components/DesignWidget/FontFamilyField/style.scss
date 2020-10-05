@@ -1,0 +1,40 @@
+.font-family-field {
+    display: flex;
+    margin-bottom: 10px;
+    label {
+        flex-shrink: 0;
+        width: 80px;
+        font-size: 11px;
+        text-align: left;
+        color: #666;
+        line-height: 26px;
+    }
+    .font-family-content {
+        flex: 1;
+        font-size: 11px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #EEE;
+        cursor: pointer;
+        .font-selected {
+            position: relative;
+            line-height: 26px;
+            padding: 0 6px;
+            &:hover {
+                background-color: #DDD;
+            }
+            i {
+                position: absolute;
+                right: 6px;
+                top: 6px;
+            }
+        }
+        .font-option {
+            line-height: 26px;
+            padding: 0 6px;
+            &:hover {
+                background-color: #CCC;
+            }
+        }
+    }
+}

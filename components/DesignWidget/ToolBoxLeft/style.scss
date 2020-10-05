@@ -1,0 +1,112 @@
+.toolbox-left {
+    border-right: 1px solid #E2E2E2;
+    overflow: auto;
+    z-index: 100;
+    .image-box {
+        .highlight-border {
+            border: 1px solid rgba(0,0,0,.3);
+            border-radius: 4px;
+            margin-bottom: 4px;
+            cursor: pointer;
+            &:hover {
+                border: 1px solid rgba(0,0,0,.3);
+            }
+            #new-image {
+                display: none;
+            }
+            .new-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 60px;
+                font-size: 12px;
+                text-transform: uppercase;
+                color: rgba(0,0,0,.7);
+                cursor: pointer;
+            }
+            .image-preview {
+                padding: 2px;
+            }
+        }
+        .remove-image {
+            width: 100%;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.05);
+            border: none;
+            border-radius: 4px;
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 12px;
+            padding: 4px 0;
+            margin-top: 4px;
+            cursor: pointer;
+            &:hover {
+                color: rgba(240, 80, 110);
+                background: rgba(240, 80, 110, 0.1);
+            }
+        }
+    }
+    .section-title {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        color: rgba(0,0,0,.5)
+    }
+    .tb-input {
+        width: 100%;
+        font-size: 11px;
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 4px 10px;
+        margin-bottom: 4px;
+        &:focus {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+        }
+    }
+    .tb-select {
+        border-radius: 4px;
+        text-align: center;
+        font-size: 11px;
+        overflow: hidden;
+        cursor: pointer;
+        .tb-selected {
+            position: relative;
+            padding: 4px 0;
+            background: rgba(0, 0, 0, 0.1);
+            color: rgba(255,255,255,.5);
+            text-transform: capitalize;
+            &:hover {
+                background: rgba(0, 0, 0, 0.3);
+            }
+            i {
+                position: absolute;
+                right: 8px;
+                top: 6px;
+            }
+        }
+        .tb-option {
+            padding: 4px 0;
+            background: rgba(255, 255, 255, 0.05);
+            color: rgba(255,255,255,.7);
+            &:hover {
+                background: rgba(255, 255, 255, 0.1);
+            }
+        }
+    }
+    input[type=range] {
+        width: 100%;
+        padding: 0;
+    }
+    button:disabled {
+        background: none;
+        cursor: not-allowed;
+        &:hover {
+            background: none;
+        }
+    }
+    hr {
+        border-top: 1px dashed rgba(255,255,255,.3);
+    } 
+}

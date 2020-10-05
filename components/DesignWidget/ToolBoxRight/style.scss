@@ -1,0 +1,47 @@
+.toolbox-right {
+	border-left: 1px solid #E2E2E2;
+	overflow: auto;
+	overflow-x: hidden;
+	z-index: 100;
+	.section-title {
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		color: rgba(0,0,0,.5);
+		.layer-tool{
+			padding: 2px 8px;
+			background: #ececec;
+			display: block;
+			float: right;
+			border-radius: 3px;
+			margin-left: 4px;
+			cursor: pointer;
+			i{vertical-align: middle;}
+		}
+	}
+	.layers-wrap{
+		height: 140px;
+		overflow-y: auto;
+		text-transform: capitalize;
+		border: 1px solid #ddd;
+		padding: 4px;
+		border-radius: 4px;
+	}
+	.layer-item{
+		margin-bottom: 1px;
+		padding: 2px 10px;
+		font-size: 12px;
+		cursor: pointer;
+		border: 1px solid #ddd;
+		border-radius: 2px;
+		&.active{
+			background:#1d7df3;
+			color:#fff;
+			border-color: #3479f7;
+		}
+		.unpin-btn{
+			float: right;
+		}
+	}
+}

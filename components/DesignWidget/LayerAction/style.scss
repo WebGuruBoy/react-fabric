@@ -1,0 +1,33 @@
+.layer-action {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    label {
+        flex-shrink: 0;
+        width: 80px;
+        font-size: 11px;
+        text-align: left;
+        color: #666;
+    }
+    .layer-actions {
+        display: flex;
+        flex: 1;
+        .layer-action-btn {
+            width: 26px;
+            text-align: center;
+            border-radius: 4px;
+            color: #333333;
+            font-size: 12px;
+            padding: 4px 0;
+            margin-right: 4px;
+            background-color: #EEE;
+            cursor: pointer;
+            &:hover {
+                background-color: #DDD;
+            }
+            &:active {
+                background-color: #CCC;
+            }
+        }
+    }
+}

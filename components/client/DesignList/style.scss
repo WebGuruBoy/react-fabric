@@ -1,0 +1,20 @@
+#design-list {
+	.design-box {
+		text-decoration: none;
+	}
+	.design-thumbnail{
+		max-height: 220px;
+		overflow: hidden;
+	}
+	.uk-card-body{
+		max-height: 220px;
+		overflow: hidden;
+	}
+	.design-preview {
+		display: block;
+		border: 1px dashed #CCC;
+		&:hover {
+			border: 1px dashed #439FDE;
+		}
+	}
+}

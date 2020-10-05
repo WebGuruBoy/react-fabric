@@ -1,0 +1,32 @@
+.text-align-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    .field-title {
+        flex-shrink: 0;
+        width: 80px;
+        font-size: 11px;
+        text-align: left;
+        color: #666;
+    }
+    .field-content {
+        display: flex;
+        background-color: #EEEEEE;
+        border-radius: 4px;
+        overflow: hidden;
+        .align-btn {
+            width: 30px;
+            text-align: center;
+            cursor: pointer;
+            &:hover {
+                background-color: #DDDDDD;
+            }
+            &.active {
+                background-color: #CCCCCC;
+            }
+            i {
+                font-size: 12px;
+            }
+        }
+    }
+}

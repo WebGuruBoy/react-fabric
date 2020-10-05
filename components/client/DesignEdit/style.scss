@@ -1,0 +1,18 @@
+#design-edit {
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - 120px);
+	.title-form {
+		.uk-input {
+			width: 200px;
+			margin-right: 10px;
+		}
+		.uk-button {
+			margin-right: 10px;
+		}
+	}
+	
+	.design-widget {
+		flex: 1;
+	}
+}

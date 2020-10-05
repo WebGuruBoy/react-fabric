@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Arvo";
+    src: url(fonts/arvo/Arvo-Regular.ttf);
+}
+@font-face {
+    font-family: "Arvo";
+    src: url(fonts/arvo/Arvo-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Arvo";
+    src: url(fonts/arvo/Arvo-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Arvo";
+    src: url(fonts/arvo/Arvo-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "B612 Mono";
+    src: url(fonts/B612_Mono/B612Mono-Regular.ttf);
+}
+@font-face {
+    font-family: "B612 Mono";
+    src: url(fonts/B612_Mono/B612Mono-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "B612 Mono";
+    src: url(fonts/B612_Mono/B612Mono-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "B612 Mono";
+    src: url(fonts/B612_Mono/B612Mono-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Courier Prime";
+    src: url(fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+@font-face {
+    font-family: "Courier Prime";
+    src: url(fonts/Courier_Prime/CourierPrime-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Courier Prime";
+    src: url(fonts/Courier_Prime/CourierPrime-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Courier Prime";
+    src: url(fonts/Courier_Prime/CourierPrime-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Cutive Mono";
+    src: url(fonts/Cutive_Mono/CutiveMono-Regular.ttf);
+}
+@font-face {
+    font-family: "Geo";
+    src: url(fonts/Geo/Geo-Regular.ttf);
+}
+@font-face {
+    font-family: "Geo";
+    src: url(fonts/Geo/Geo-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Lekton";
+    src: url(fonts/Lekton/Lekton-Regular.ttf);
+}
+@font-face {
+    font-family: "Lekton";
+    src: url(fonts/Lekton/Lekton-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Lekton";
+    src: url(fonts/Lekton/Lekton-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Libre Barcode 39";
+    src: url(fonts/Libre_Barcode_39/LibreBarcode39-Regular.ttf);
+}
+@font-face {
+    font-family: "Libre Barcode 39 Text";
+    src: url(fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
+}
+@font-face {
+    font-family: "Nanum Gothic Coding";
+    src: url(fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf);
+}
+@font-face {
+    font-family: "Nanum Gothic Coding";
+    src: url(fonts/Nanum_Gothic_Coding/NanumGothicCoding-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Press Start 2P";
+    src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+@font-face {
+    font-family: "PT Mono";
+    src: url(fonts/PT_Mono/PTMono-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-Thin.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Share Tech Mono";
+    src: url(fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf);
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Regular.ttf);
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Space Mono";
+    src: url(fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+    font-family: "Space Mono";
+    src: url(fonts/Space_Mono/SpaceMono-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Space Mono";
+    src: url(fonts/Space_Mono/SpaceMono-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Space Mono";
+    src: url(fonts/Space_Mono/SpaceMono-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Special Elite";
+    src: url(fonts/Special_Elite/SpecialElite-Regular.ttf);
+}
+@font-face {
+    font-family: "Stint Ultra Expanded";
+    src: url(fonts/Stint_Ultra_Expanded/StintUltraExpanded-Regular.ttf);
+}
+@font-face {
+    font-family: "VT323";
+    src: url(fonts/VT323/VT323-Regular.ttf);
+}
+@font-face {
+    font-family: "Thermal Receipt1";
+    src: url(fonts/ThermalReceipt1/ThermalReceipt1.ttf);
+}
+@font-face {
+    font-family: "Thermal Receipt2";
+    src: url(fonts/ThermalReceipt2/ThermalReceipt2.ttf);
+}
